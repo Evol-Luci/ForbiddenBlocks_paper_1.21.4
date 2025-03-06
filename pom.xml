@@ -6,10 +6,10 @@
 
 <groupId>me.lucievol</groupId>
 <artifactId>Project_No_PlaceBlock</artifactId>
-<version>1.0</version>
+<version>1.1</version>
 <packaging>jar</packaging>
 
-<name>ForbiddenBlocks_paper_1.21.4</name>
+<name>ForbiddenBlocks_1.1_paper_1.21.4</name>
 
 <properties>
     <java.version>21</java.version>
