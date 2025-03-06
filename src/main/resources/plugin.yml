@@ -1,0 +1,20 @@
+name: ForbiddenBlocks_paper_1.21.4
+version: '1.0'
+main: me.lucievol.no_PlaceBlock.noPlaceBlock
+api-version: '1.21'
+commands:
+  forbiditem:
+    description: Forbids the placement of an item.
+    usage: /forbiditem
+    permission: no_placeblock.forbid
+  allowitem:
+    description: Allows the placement of an item.
+    usage: /allowitem
+    permission: no_placeblock.allow
+permissions:
+  no_placeblock.forbid:
+    description: Allows player to forbid items from being placed.
+    default: op
+  no_placeblock.allow:
+    description: Allows player to allow previously forbidden items to be placed.
+    default: op
