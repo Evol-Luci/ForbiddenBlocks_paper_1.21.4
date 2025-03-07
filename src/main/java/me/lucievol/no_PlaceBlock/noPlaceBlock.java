@@ -5,7 +5,6 @@ import net.kyori.adventure.text.minimessage.MiniMessage;
 import net.kyori.adventure.platform.bukkit.BukkitAudiences;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.command.TabExecutor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -20,7 +19,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-public final class noPlaceBlock extends JavaPlugin implements TabExecutor {
+public final class noPlaceBlock extends JavaPlugin {
 
     private BukkitAudiences adventure;
     private final Set<String> forbiddenItems = new HashSet<>();
