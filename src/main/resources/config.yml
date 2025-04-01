@@ -20,3 +20,8 @@ options:
   sendMessages: true # Toggle this to enable/disable messages.
 
 forbiddenItems: []
+
+playerForbiddenItems:
+  global: []
+  # PlayerName:
+  #   - ItemDisplayName

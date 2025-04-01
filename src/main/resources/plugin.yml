@@ -1,7 +1,7 @@
-name: ForbiddenBlocks_1.1_paper_1.21.4
+name: ForbiddenBlocks
 version: '1.0'
-main: me.lucievol.no_PlaceBlock.noPlaceBlock
-api-version: '1.21'
+main: me.lucievol.noPlaceBlock.noPlaceBlock
+api: '1.21'
 commands:
   forbiditem:
     description: Forbids the placement of an item.
@@ -24,18 +24,18 @@ commands:
     usage: /reloadconfig
     permission: no_placeblock.reload
 permissions:
-  no_placeblock.forbid:
+  forbiddenblocks.forbid:
     description: Allows player to forbid items from being placed.
     default: op
-  no_placeblock.allow:
+  forbiddenblocks.allow:
     description: Allows player to allow previously forbidden items to be placed.
     default: op
-  no_placeblock.togglemessages:
+  forbiddenblocks.togglemessages:
     description: Allows player to toggle block placement messages.
     default: op
-  no_placeblock.list:
+  forbiddenblocks.list:
     description: Allows player to list all forbidden items.
     default: op
-  no_placeblock.reload:
+  forbiddenblocks.reload:
     description: Allows player to reload the configuration.
     default: op
