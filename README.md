@@ -170,7 +170,7 @@ This process ensures that block placement restrictions are enforced smoothly and
 
 🤝 **Contributions are welcome!**  If you have ideas for improvements, new features, or bug fixes, please don't hesitate to contribute!
 
-*    направите **Submit a pull request** with your changes.
+*    Do **Submit a pull request** with your changes.
 *   🐛 **Open an issue** to discuss bugs or suggest enhancements.
 
 Let's make ForbiddenBlocks even better together! 🚀
